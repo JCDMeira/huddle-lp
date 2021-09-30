@@ -157,3 +157,102 @@ html {
     height: auto;
   }
 }
+
+@media (min-width: 768px) {
+  .conteiner {
+    height: 100vh;
+  }
+  .logo {
+    display: block;
+  }
+  .figure {
+    width: 80%;
+    height: auto;
+  }
+  .content {
+    height: 90rem;
+    width: 86.133%;
+  }
+
+  .info {
+    height: 80rem;
+  }
+  .info button {
+    margin-top: 6rem;
+  }
+}
+
+@media (min-width: 1023px) {
+  .conteiner {
+    height: 100vh;
+  }
+  .logo {
+    width: 260px;
+    height: auto;
+    display: block;
+  }
+  .figure {
+    width: 80%;
+    height: auto;
+  }
+  .content {
+    height: 110rem;
+    width: 86.133%;
+  }
+
+  .info {
+    height: 105rem;
+  }
+
+  .info h1 {
+    font-size: 3.6rem;
+    line-height: 4.2rem;
+  }
+
+  .info span {
+    font-size: 3.6rem;
+    display: block;
+    margin-bottom: 2.3rem;
+  }
+
+  .info p {
+    font-size: 2.4rem;
+    line-height: 3rem;
+    text-align: center;
+    color: #ffffff;
+    padding: 0 1.2rem;
+    margin-bottom: 2.3rem;
+  }
+
+  .info button {
+    margin-top: 4rem;
+
+    width: 40rem;
+    height: 6rem;
+
+    font-size: 2rem;
+    line-height: 24px;
+  }
+  .info button:hover {
+    font-size: 2.4rem;
+  }
+
+  .footer {
+    position: relative;
+    height: 6rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 3;
+  }
+
+  .footer .iconContent {
+    width: 5rem;
+    height: 5.1rem;
+  }
+
+  .icon {
+    height: 3rem;
+  }
+}
