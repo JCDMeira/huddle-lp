@@ -13,7 +13,7 @@ html {
 }
 .background {
   position: absolute;
-  width: auto;
+  width: 100%;
   left: 0;
   top: 0;
   z-index: 1;
@@ -105,4 +105,26 @@ html {
 
 .footer {
   height: 6rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer .icon {
+  width: 25px;
+  height: 26px;
+
+  background: #674baf;
+  border: 1px solid #ffffff;
+  border-radius: 50%;
+  margin-left: 1.3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0.3rem;
+}
+
+#first {
+  margin-left: 0;
 }
