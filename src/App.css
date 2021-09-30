@@ -49,9 +49,9 @@ html {
 }
 
 .figure {
-  width: 300px;
+  width: 80%;
   position: relative;
-  height: 214.1px;
+  height: auto;
   z-index: 3;
   margin-left: 1.2rem;
   margin-bottom: 5.9rem;
@@ -142,4 +142,18 @@ html {
 
 .footer .iconContent:hover {
   background: #e882e8;
+}
+
+@media (min-width: 375px) {
+  .figure {
+    width: 300px;
+    height: 214.1px;
+  }
+}
+
+@media (min-width: 500px) {
+  .figure {
+    width: 40rem;
+    height: auto;
+  }
 }
