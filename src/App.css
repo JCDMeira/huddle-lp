@@ -36,6 +36,8 @@ html {
 
 .info {
   height: 68.8rem;
+  position: relative;
+  z-index: 3;
 }
 
 .logo {
@@ -101,17 +103,26 @@ html {
   line-height: 24px;
   text-align: center;
   color: #674baf;
+  transition: all 0.5ms;
+}
+.info button:hover {
+  background: #e882e8;
+  font-size: 1.5rem;
+  font-weight: 600;
+  filter: brightness(160%);
 }
 
 .footer {
+  position: relative;
   height: 6rem;
   width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
+  z-index: 3;
 }
 
-.footer .icon {
+.footer .iconContent {
   width: 25px;
   height: 26px;
 
@@ -127,4 +138,8 @@ html {
 
 #first {
   margin-left: 0;
+}
+
+.footer .iconContent:hover {
+  background: #e882e8;
 }

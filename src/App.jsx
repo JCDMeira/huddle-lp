@@ -37,13 +37,13 @@ function App() {
           </div>
 
           <div className="footer">
-            <div className="icon" id="first">
+            <div className="iconContent" id="first">
               <RiFacebookFill size={15} color="#fff" />
             </div>
-            <div className="icon">
+            <div className="iconContent">
               <AiOutlineTwitter size={15} color="#fff" />
             </div>
-            <div className="icon">
+            <div className="iconContent">
               <FiInstagram size={15} color="#fff" />
             </div>
           </div>
