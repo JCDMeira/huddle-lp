@@ -20,8 +20,10 @@ function App() {
         />
         <div className="content">
           <div className="info">
-            <img className="logo" src={huddle} alt="logo" />
-            <img className="figure" src={figure} alt="illustration" />
+            <div>
+              <img className="logo" src={huddle} alt="logo" />
+              <img className="figure" src={figure} alt="illustration" />
+            </div>
             <div className="infoField">
               <h1>
                 {' '}
@@ -40,21 +42,21 @@ function App() {
             <div className="iconContent" id="first">
               <RiFacebookFill
                 className="icon"
-                size={widthDevice > 1023 ? 28 : 15}
+                size={widthDevice > 1023 ? 22 : 15}
                 color="#fff"
               />
             </div>
             <div className="iconContent">
               <AiOutlineTwitter
                 className="icon"
-                size={widthDevice > 1023 ? 28 : 15}
+                size={widthDevice > 1023 ? 22 : 15}
                 color="#fff"
               />
             </div>
-            <div className="iconContent">
+            <div className="iconContent" id="last">
               <FiInstagram
                 className="icon"
-                size={widthDevice > 1023 ? 28 : 15}
+                size={widthDevice > 1023 ? 22 : 15}
                 color="#fff"
               />
             </div>
