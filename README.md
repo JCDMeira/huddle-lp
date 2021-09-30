@@ -27,7 +27,6 @@ Users should be able to:
 
 ## Screenshot
 
-<!--
 ### Mobile design
 
 <p  align="center">
@@ -42,9 +41,9 @@ Users should be able to:
 
 <p  align="center"><img width="720px" src="./presentation/desktop.png" align="center"></img></p>
 
-### result of my work
+<!-- ### result of my work
 
-<p  align="center"><img width="1080px" src="./presentation/design-x-myWork.gif" align="center"></img></p> -->
+<p  align="center"><img width="1080px" src="./presentation/design-x-myWork.gif" align="center"></img></p>  -->
 
 ### Links
 
@@ -59,40 +58,22 @@ Users should be able to:
 
 - Flexbox
 - Mobile-first workflow
+- [React Icon](https://react-icons.github.io/react-icons/) - library with popular icons
 - [React](https://reactjs.org/) - JS library
 
 ### What I learned
 
-<!--
-Using the grid template areas to define occupied spaces with an alias
+Using react icons library
 
-```CSS
-  .content {
-  display: grid;
-  gap: 0;
-  grid-template-areas:
-    'field1'
-    'field2'
-    'field3';
-}
+```JSX
+  import { RiFacebookFill } from 'react-icons/ri';
 
-.field1 {
-  grid-area: field1;
-}
-.field2 {
-  grid-area: field2;
-}
-.field3 {
-  grid-area: field3;
-}
-@media (min-width: 900px) {
-  .content {
-    grid-template-areas:
-      'field1 field1'
-      'field2 field3';
-  }
-}
-``` -->
+<RiFacebookFill
+  className="icon"
+  size={widthDevice > 1023 ? 22 : 15}
+  color="#fff"
+/>
+```
 
 ### Useful resources
 
@@ -100,6 +81,7 @@ Using the grid template areas to define occupied spaces with an alias
 - [my figma design](https://www.figma.com/file/83tOo71IOWw4TwijRljgdz/08---Huddle-LP?node-id=0%3A1) - My figma design for help anyone who wants to build this challenge.
 - [CSS units conversor - px to VH/VW/REM](https://it-news.pw/pxtovh/) - CSS units conversor .
 - [Converting Colors](https://convertingcolors.com) - HSL for all color systems.
+- [React Icon](https://react-icons.github.io/react-icons/) - library with popular icons
 
 ## Author
 
