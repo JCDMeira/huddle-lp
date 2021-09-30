@@ -260,6 +260,7 @@ html {
 @media (min-width: 1200px) {
   .background {
     width: 91.52777%;
+    height: 100%;
   }
 
   .content {
